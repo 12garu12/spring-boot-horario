@@ -21,9 +21,9 @@ public class AppController {
     @GetMapping("/cerrado")
     public String cerrar(Model model){
 
-        StringBuilder mensaje = new StringBuilder("Cerrado por favo visítenos desde las ");
+        StringBuilder mensaje = new StringBuilder("Cerrado por favor visítenos desde las ");
         mensaje.append(horario.getApertura());
-        mensaje.append(" y las ");
+        mensaje.append(" hrs y las ");
         mensaje.append(horario.getCierre());
         mensaje.append(" hrs. Gracias. ");
 
