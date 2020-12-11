@@ -49,4 +49,20 @@ public class HorarioInterceptor implements HandlerInterceptor {
         modelAndView.addObject("horario", mensaje); // Con el modelAndView para pasar los datos a la vista index.html
 
     }
+
+    public Integer getApertura() {
+        return apertura;
+    }
+
+    public void setApertura(Integer apertura) {
+        this.apertura = apertura;
+    }
+
+    public Integer getCierre() {
+        return cierre;
+    }
+
+    public void setCierre(Integer cierre) {
+        this.cierre = cierre;
+    }
 }
